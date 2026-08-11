@@ -1,0 +1,15 @@
+namespace StudentLibrary
+{
+    public class Student
+    {
+        protected string name = "Khushi";
+
+        protected internal int age = 20;
+
+        private protected string course = "B.Tech";
+
+        public string city = "Delhi";
+
+        private string mobile = "9999999999";
+    }
+}
