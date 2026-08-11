@@ -1,0 +1,34 @@
+using System;
+using StudentLibrary;
+
+namespace StudentClient
+{
+    class ResearchStudent : Student
+    {
+        public void Display()
+        {
+
+            Console.WriteLine(name);       // protected
+            Console.WriteLine(age);        // protected internal
+
+            
+        }
+    }
+
+    class Program
+    {
+        static void Main()
+        {
+            ResearchStudent rs = new ResearchStudent();
+            rs.Display();
+
+            Student s = new Student();
+
+          
+            Console.WriteLine(s.city);
+
+            
+            
+        }
+    }
+}
