@@ -1,0 +1,44 @@
+using System;
+
+namespace StudentLibrary1
+{
+    public class Student
+    {
+        public string Name = "Khushi";
+        private int age = 22;
+        protected string course = "MCA";
+        internal string college = "ABC College";
+        protected internal string city = "Delhi";
+        private protected string section = "A";
+
+        public void ShowPublic()
+        {
+            Console.WriteLine("Public Method");
+        }
+
+        private void ShowPrivate()
+        {
+            Console.WriteLine("Private Method");
+        }
+
+        protected void ShowProtected()
+        {
+            Console.WriteLine("Protected Method");
+        }
+
+        internal void ShowInternal()
+        {
+            Console.WriteLine("Internal Method");
+        }
+
+        protected internal void ShowProtectedInternal()
+        {
+            Console.WriteLine("Protected Internal Method");
+        }
+
+        private protected void ShowPrivateProtected()
+        {
+            Console.WriteLine("Private Protected Method");
+        }
+    }
+}
