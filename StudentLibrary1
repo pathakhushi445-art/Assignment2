@@ -2,7 +2,7 @@ using System;
 
 namespace StudentLibrary1
 {
-    public class Student
+    public class StudentLibrary
     {
         public string Name = "Khushi";
         private int age = 22;
